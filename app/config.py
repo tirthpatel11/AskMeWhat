@@ -5,7 +5,7 @@ def load_config():
     return load_dotenv()
 
 def get_groq_api():
-    return "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"
+    return "api_key"
 
 groq_api_key = get_groq_api()
 
