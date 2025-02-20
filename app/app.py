@@ -12,8 +12,8 @@ from langchain.docstore.document import Document
 from PIL import Image
 import os
 
-st.set_page_config(layout='wide', page_title="AskMeWhat")
-st.title("AskMeWhat")
+st.set_page_config(layout='wide', page_title="DocChat")
+st.title("DocChat")
 
 prompt = ChatPromptTemplate.from_template(
     """
